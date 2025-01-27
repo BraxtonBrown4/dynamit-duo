@@ -48,7 +48,7 @@ export const database = {
     ]
 }
 
-const getVillains = () => {
+export const getVillains = () => {
     return database.villains.map(villain => ({...villain}))
 }
 
